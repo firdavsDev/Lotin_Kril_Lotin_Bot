@@ -1,7 +1,7 @@
 import telebot
 from tar import to_cyrillic, to_latin
 
-bot = telebot.TeleBot(token="1565685030:AAFvJlXEeBxvfR6zfVho9NmmEc4uiEuCvGo")
+bot = telebot.TeleBot(token="TOKEN")
 
 # \start komandasi uchun mas'ul funksiya
 @bot.message_handler(commands=['start'])
